@@ -2,5 +2,5 @@
 
 # This is where we will document our progress of building this ecommerce application
 
-# Current Contributors - nayananandofficial, ananthusigil
+# Current Contributors - nayananandofficial, ananthucigil
 
