@@ -1,12 +1,49 @@
-# React + Vite
+# Nyla Fashion E-commerce - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The frontend of Nyla Fashion E-commerce is built using modern web technologies to deliver a seamless and visually appealing shopping experience. It includes features such as user authentication, product browsing, cart functionality, and responsive design.
 
-Currently, two official plugins are available:
+## Features
+- **User Authentication**: Secure login and registration.
+- **Product Browsing**: View and search for fashion products.
+- **Responsive Design**: Optimized for all screen sizes.
+- **Interactive UI**: Smooth animations and transitions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React**: Component-based UI development.
+- **TailwindCSS**: Utility-first CSS framework for styling.
+- **Vite**: Fast development server and build tool.
 
-## Expanding the ESLint configuration
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nayananandofficial/nyla-ecommerce.git
+   ```
+2. Navigate to the frontend directory:
+   ```bash
+   cd nyla-ecommerce/client
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Usage
+- Start the development server:
+  ```bash
+  npm run dev
+  ```
+- Access the application at `http://localhost:3000`.
+
+## Project Structure
+- **src/components/ui**: Reusable UI components like buttons, inputs, tooltips, etc.
+- **src/pages**: Pages such as `Auth`, `Index`, and `NotFound`.
+- **src/hooks**: Custom React hooks like `use-toast`.
+- **src/lib**: Utility functions.
+- **src/assets**: Static assets like images and icons.
+
+## Contributors
+- **nayananandofficial**
+
+## License
+This project is licensed under the MIT License.
